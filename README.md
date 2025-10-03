@@ -155,7 +155,7 @@ Contributions are welcome! If you'd like to contribute, please follow these step
 
 Please ensure your code follows the project's coding style and includes tests for any new functionality.
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 Here are some ideas for future improvements:
 
@@ -167,6 +167,6 @@ Here are some ideas for future improvements:
 
 ---
 
-## 📜 License
+##  License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
