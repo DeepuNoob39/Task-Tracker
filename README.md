@@ -43,7 +43,7 @@ To get Tasker CLI running on your local machine, follow these simple steps.
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/tasker-cli.git](https://github.com/DeepuNoob39/tasker-cli.git)
+    git clone https://github.com/DeepuNoob39/Task-Tracker.git
     ```
 
 2.  **Navigate to the project directory:**
@@ -137,7 +137,7 @@ Contributions are welcome! If you'd like to contribute, please follow these step
 1.  **Fork the repository** on GitHub.
 2.  **Clone your forked repository** to your local machine:
     ```bash
-    git clone [https://github.com/your-username/tasker-cli.git](https://github.com/DeepuNoob39/tasker-cli.git)
+    git clone https://github.com/DeepuNoob39/Task-Tracker.git
     ```
 3.  **Create a new branch** for your feature or bug fix:
     ```bash
@@ -154,3 +154,19 @@ Contributions are welcome! If you'd like to contribute, please follow these step
 6.  **Open a Pull Request** from your branch to the `main` branch of the original repository.
 
 Please ensure your code follows the project's coding style and includes tests for any new functionality.
+
+## 🔮 Future Enhancements
+
+Here are some ideas for future improvements:
+
+- [ ] **Task Priorities**: Add support for `high`, `medium`, and `low` priority levels.
+- [ ] **Due Dates**: Implement due dates and reminders for tasks.
+- [ ] **Sub-tasks**: Allow tasks to have nested sub-tasks.
+- [ ] **Alternative Storage**: Add support for other storage backends like SQLite.
+- [ ] **Configuration File**: Create a config file (`~/.tasker/config.ini`) for user preferences.
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
