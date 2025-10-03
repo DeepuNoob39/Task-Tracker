@@ -45,7 +45,7 @@ To get Tasker CLI running on your local machine, you can clone the repository an
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/DeepuNoob39/Task-Tracker.git](https://github.com/DeepuNoob39/Task-Tracker.git)
+    git clone https://github.com/DeepuNoob39/Task-Tracker.git
     ```
 
 2.  **Navigate to the project directory:**
@@ -131,7 +131,7 @@ Task-Tracker/
 │   └── demo.gif            # Demo GIF for the README
 │
 ├── tasker/
-│   ├── __init__.py         # Makes 'tasker' a Python package
+│   ├── init.py         # Makes 'tasker' a Python package
 │   └── cli.py              # Main application logic for the CLI
 │
 ├── .gitignore              # Specifies files for Git to ignore
