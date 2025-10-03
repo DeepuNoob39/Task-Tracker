@@ -48,7 +48,7 @@ To get Tasker CLI running on your local machine, follow these simple steps.
 
 2.  **Navigate to the project directory:**
     ```bash
-    cd tasker-cli
+    cd tasker
     ```
 
 3.  **Install the required dependencies:**
