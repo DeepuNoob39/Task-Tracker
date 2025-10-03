@@ -31,39 +31,38 @@ A simple and efficient command-line task manager built with Python. Manage your 
 
 ---
 
+
 ##  Installation
 
-To get Tasker CLI running on your local machine, follow these simple steps.
+To get Tasker CLI running on your local machine, you can clone the repository and install it using `pip`. This will automatically install all dependencies and make the `tasker` command available in your terminal.
 
 **Prerequisites:**
 - Python 3.8 or higher
-- pip
+- Pip
+- Git
 
 **Steps:**
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/DeepuNoob39/Task-Tracker.git
+    git clone [https://github.com/DeepuNoob39/Task-Tracker.git](https://github.com/DeepuNoob39/Task-Tracker.git)
     ```
 
 2.  **Navigate to the project directory:**
     ```bash
-    cd tasker
+    cd Task-Tracker
     ```
 
-3.  **Install the required dependencies:**
+3.  **Install the project in editable mode:**
+    Installing with the `-e` flag (editable) is highly recommended. It creates the `tasker` command on your system while allowing you to modify the source code and see changes immediately without reinstalling.
     ```bash
-    pip install -r requirements.txt
+    pip install -e .
     ```
 
-4.  **Run the application:**
-    The application is typically run as a Python module.
+4.  **Verify the installation:**
+    You should now be able to run the `tasker` command from anywhere in your terminal.
     ```bash
-    python -m tasker --help
-    ```
-    *For convenience, you can create an alias in your `.bashrc` or `.zshrc` file:*
-    ```bash
-    alias tasker="python /path/to/tasker-cli/tasker"
+    tasker --help
     ```
 
 ---
@@ -119,7 +118,7 @@ tasker delete 2
 
 ##  Demo
 
-...
+
 ![Tasker CLI Demo](assets/demo.gif)
 
 
@@ -127,7 +126,18 @@ tasker delete 2
 
 ## File Structure
 Here is an overview of the Project's file structure
-
+Task-Tracker/
+├── assets/
+│   └── demo.gif            # Demo GIF for the README
+│
+├── tasker/
+│   ├── __init__.py         # Makes 'tasker' a Python package
+│   └── cli.py              # Main application logic for the CLI
+│
+├── .gitignore              # Specifies files for Git to ignore
+├── LICENSE                 # Your project's MIT License file
+├── README.md               # The project's README file
+└── setup.py                # Configuration for making the project installable
 
 
 ##  Contributing
