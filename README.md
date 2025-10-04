@@ -45,7 +45,7 @@ To get Tasker CLI running on your local machine, you can clone the repository an
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/DeepuNoob39/Task-Tracker.git
+    git clone https://github.com/deepanshu-dhaka/Task-Tracker.git
     ```
 
 2.  **Navigate to the project directory:**
@@ -147,7 +147,7 @@ Contributions are welcome! If you'd like to contribute, please follow these step
 1.  **Fork the repository** on GitHub.
 2.  **Clone your forked repository** to your local machine:
     ```bash
-    git clone https://github.com/DeepuNoob39/Task-Tracker.git
+    git clone https://github.com/deepanshu-dhaka/Task-Tracker.git
     ```
 3.  **Create a new branch** for your feature or bug fix:
     ```bash
@@ -176,6 +176,11 @@ Here are some ideas for future improvements:
 - [ ] **Configuration File**: Create a config file (`~/.tasker/config.ini`) for user preferences.
 
 ---
+
+## Inspiration
+
+https://roadmap.sh/projects/task-tracker
+
 
 ##  License
 
